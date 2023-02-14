@@ -5,8 +5,158 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    
+    <header class="blogHead">
+        <div>
+            <nav class="navFlex">
+                <h1 class="flexItemHeader">Delicous</h1>
+
+                <ul class="flexItemList">
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">RECIPES</a></li>
+                    <li><a href="">NUTRITION</a></li>
+                    <li><a href="./blog.html">BLOG</a></li>
+                    <li><a href="">SHOP</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+                    <li><img src="./assets/cartIcon.png" alt="shopping cart icon"></li>
+                    <li><img src="./assets/searchIcon.png" alt="search icon"></li>
+                </ul>
+        </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="pineapple wrapper">
+            <div>
+                <h2>PINEAPPLE CHICKEN</h2>
+                <p>Posted July 11, 2018 | by Admin | in Recipes</p>
+            </div>
+            <div class="blogP">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis error placeat iure aliquam vero quia animi. Ipsam esse consequuntur est nulla cumque iure nisi, fuga tempora labore quas deserunt in?</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis error placeat iure aliquam vero quia animi. Ipsam esse consequuntur est nulla cumque iure nisi, fuga tempora labore quas deserunt in?</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis error placeat iure aliquam vero quia animi. Ipsam esse consequuntur est nulla cumque iure nisi, fuga tempora labore quas deserunt in?</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis error placeat iure aliquam vero quia animi. Ipsam esse consequuntur est nulla cumque iure nisi, fuga tempora labore quas deserunt in?</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis error placeat iure aliquam vero quia animi. Ipsam esse consequuntur est nulla cumque iure nisi, fuga tempora labore quas deserunt in?</p>
+            </div>
+            <div class="tags">
+                <p><strong>TAGS: </strong>Recipes, Chicken, Pineapple, Mexican</p>
+                <p><strong>SHARE: </strong><img src="./assets/Facebook.png" alt=""></p>
+            </div>
+            <div class="sally">
+                <img src="./assets/blog-2.jpeg" alt="A portrait of Sally Lucas">
+                <h3>SALLY LUCAS</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, cupiditate. Laudantium quos harum eos porro quas autem a esse unde magni soluta sit, illo temporibus aperiam modi distinctio voluptatem magnam?</p>
+            </div>
+            <div class="relatedPosts">
+                <h3>RELATED POSTS</h3>
+                <ul class="cardsContainer">
+                    <!-- CARD 1 -->
+                    <li class="cardItems card1">
+                        <div class="flexCard">
+                            <div class="flexCardImg">
+                                <img src="./assets/blog-3.jpeg" alt="">
+                            </div>
+                            <div class="flexCardText">
+                                <h5>HOW TO BAKE THE PERFECT CAKE</h5>
+                                <p>Posted July 11, 2018 | by Admin | in Recipes</p>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- CARD 2 -->
+                    <li class="cardItems card2">
+                        <div class="flexCard">
+                            <div class="flexCardImg">
+                                <img src="./assets/blog-4.jpeg" alt="">
+                            </div>
+                            <div class="flexCardText">
+                                <h5>FLORAL CUPCAKES</h5>
+                                <p>Posted July 19, 2018 | by Admin | in Recipes</p>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- CARD 3 -->
+                    <li class="cardItems card3">
+                        <div class="flexCard">
+                            <div class="flexCardImg">
+                                <img src="./assets/blog-5.jpeg" alt="">
+                            </div>
+                            <div class="flexCardText">
+                                <h5>SINGLE POST WITH IMAGE</h5>
+                                <p>Posted July 22, 2018 | by Admin | in Recipes</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- COMMENTS -->
+            <div class="comments">
+                <h3>02 COMMENTS</h3>
+                <div class="luca">
+                    <div class="lucaImg">
+                        <img src="./assets/blog-6.jpeg" alt="Up-close portrait of a smiling woman">
+                    </div>
+                    <div class="lucaText">
+                        <p><strong>Lucatony Avaro</strong> - Web Developer</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima pariatur voluptatibus odit necessitatibus atque amet officia aliquid nemo harum, voluptates, vel eum incidunt quis nesciunt repellendus, quos corporis nobis consequatur!</p>
+                        <p>Jul 17, 2015</p>
+                    </div>
+                </div>
+                <div class="brian">
+                    <div class="brianImg">
+                        <img src="./assets/blog-7.jpeg" alt="A portrait of a woman in a hat">
+                    </div>
+                    <div class="brianText">
+                        <p><strong>Brian Hudson</strong> - Web Developer</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta saepe praesentium autem unde! Culpa perspiciatis ab cumque sunt corporis, repellendus minus error labore voluptatibus consequatur delectus qui. Iure, sapiente sit?</p>
+                        <p>July 19, 2015</p>
+                    </div>
+                </div>
+                <div>
+                    <h3>LEAVE A COMMENT</h3>
+                    <p>Your email address will not be published. Required feilds are marked *</p>
+                    <form class="contactForm" action="">
+                        <label class="sr-only" for="name"></label>
+                        <input type="text">
+                    </form>
+                </div>
+            </div>
+
+
+        </section>
+    </main>
+
+        <!-- FOOTER -->
+        <footer class="flexFoot">
+            <div class="footerDelicious">
+                <h3>DELICIOUS</h3>
+                <p class="footerP">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum animi dolore adipisci vel architecto, cupiditate aliquid porro, asperiores vero minus fuga? Nobis aut blanditiis.</p>
+                <p class="footerP">A delicious restaurant <br>
+                Toronto, Ontario</p>
+                <p class="footerP">yum@food.com</p>
+                <p>+1 234 567 8910</p>
+            </div>
+            <div class="recentPosts">
+                <h4>RECENT POSTS</h4>
+                <p class="footerP">Lorem ipsum dolor sit amet consectetur.</p>
+                <p class="footerP">Lorem ipsum dolor sit amet consectetur.</p>
+                <p class="footerP">Lorem ipsum dolor sit amet consectetur.</p>
+                <p class="footerP">Lorem ipsum dolor sit amet consectetur.</p>
+                <p class="footerP">Lorem ipsum dolor sit amet consectetur.</p>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+            <div class="subscribe">
+                <h4>SUBSCRIBE NOW</h4>
+                <p>Get all of our newest recipes immediately in your inbox!</p>
+                <form action="">
+                    <label for="Enter your Email" class="sr-only"></label>
+                    <input type="email" id="email" placeholder="Enter your email">
+                    <button><img src="./assets/arrowRightIcon.png" alt=""></button>
+                </form>
+                <img src="./assets/Facebook.png" alt="">
+            </div>
+        </footer>
 </body>
 </html>

@@ -1,7 +1,29 @@
+@use './variables'as *;
+
 // header splash
-header {
-    background-image: url(../../../assets/home-1.jpeg);
+.indexHead {
+    background-image: url(../assets/home-1.jpeg);
     background-position: center;
     background-size: cover;
     height: 100vh;
+}
+
+.contactHead {
+    background-image: url(../assets/contact-1.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.blogHead {
+    background-image: url(../assets/blog-1.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navFlex {
+    display: flex;
+    padding: 20px;
+
 }

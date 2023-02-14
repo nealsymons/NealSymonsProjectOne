@@ -226,6 +226,52 @@ html {
   overflow: hidden;
 }
 
-header {
-  background-image: url(../../../assets/home-1.jpeg);
+html {
+  font-size: 125%;
+}
+
+.wrapper {
+  max-width: 1300px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.indexHead {
+  background-image: url(../assets/home-1.jpeg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.contactHead {
+  background-image: url(../assets/contact-1.jpeg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.blogHead {
+  background-image: url(../assets/blog-1.jpeg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.navFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+}
+
+footer {
+  background-color: #2E2E2E;
 }

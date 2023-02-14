@@ -8,76 +8,154 @@
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <header>
-        <div class="head">
-        <h1>Delicous</h1>
-        </div>
+    <header class="indexHead">
+        <div>
+            <nav class="navFlex">
+                <h1 class="flexItemHeader">Delicous</h1>
 
-        <ul>
-            <li><a href="./index.html">HOME</a></li>
-            <li><a href="">ABOUT</a></li>
-            <li><a href="">RECIPES</a></li>
-            <li><a href="">NUTRITION</a></li>
-            <li><a href="./blog.html">BLOG</a></li>
-            <li><a href="">SHOP</a></li>
-            <li><a href="./contact.html">CONTACT</a></li>
-            <li><img src="./assets/cartIcon.png" alt="shopping cart icon"></li>
-            <li><img src="./assets/searchIcon.png" alt="search icon"></li>
-        </ul>
+                <ul class="flexItemList">
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">RECIPES</a></li>
+                    <li><a href="">NUTRITION</a></li>
+                    <li><a href="./blog.html">BLOG</a></li>
+                    <li><a href="">SHOP</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+                    <li><img src="./assets/cartIcon.png" alt="shopping cart icon"></li>
+                    <li><img src="./assets/searchIcon.png" alt="search icon"></li>
+                </ul>
+        </nav>
+        </div>
     </header>
 
     <main>
-        <div class="wrapper recipes">
-            <h2 class="recipesH2">MOST POPULAR RECIPES</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut quidem facilis blanditiis quasi impedit consequatur fuga quia, dolore enim consequuntur mollitia quae? Repellat at maiores corrupti dolores ut aperiam nesciunt.</p>
-            <button>VEIW RECIPES</button>
-        </div>
-        <div class="wrapper vegParent">
-            <ul>
+        <!-- MOST POPULAR RECIPES -->
+        <section class="recipesParent">
+            <div class="recipesImg">
+                <img class="recipesImgChild" src="./assets/home-2.jpeg" alt="A beautiful bowl of purple lettuce">
+            </div>
+            <div class="wrapperPop recipes">
+                <h2 class="recipesH2">MOST POPULAR RECIPES</h2>
+                <p class="recipesBody">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut quidem facilis blanditiis quasi impedit consequatur fuga quia, dolore enim consequuntur mollitia quae? Repellat at maiores corrupti dolores ut aperiam nesciunt.</p>
+                <button class="recipesButton">VEIW RECIPES</button>
+            </div>
+        </section>
+
+        <!-- Veg list -->
+        <section class="vegParent">
+            <div class="vagImg">
+                <img  src="./assets/home-3.jpeg" alt="A delicious soft shell taco with lime and beef">
+            </div>
+            <ul class="wrapper">
                 <li class="vegChild">
-                    
+                    <img class="vegIcon" src="./assets/vegIcon.png" alt="">
                     <div class="vegChildText">
                         <h3>VEGETARIAN</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur totam delectus quis rem atque sint culpa repellendus dolore</p>
                     </div>
                 </li>
                 <li class="vegChild">
-                    
+                    <img class="vegIcon" src="./assets/desIcon.png" alt="">
                     <div class="vegChildText">
                         <h3>DESSERTS</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur totam delectus quis rem atque sint culpa repellendus dolore</p>
                     </div>
                 </li>
                 <li class="vegChild">
-                    
+                    <img class="vegIcon" src="./assets/sideIcon.png" alt="">
                     <div class="vegChildText">
                         <h3>SALADS</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur totam delectus quis rem atque sint culpa repellendus dolore</p>
                     </div>
                 </li>
                 <li class="vegChild">
-                    
+                    <img class="vegIcon" src="./assets/appIcon.png" alt="">
                     <div class="vegChildText">
                         <h3>APPETIZERS</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur totam delectus quis rem atque sint culpa repellendus dolore</p>
                     </div>
                 </li>
                 <li class="vegChild">
-                    
+                    <img class="vegIcon" src="./assets/drinkIcon.png" alt="">
                     <div class="vegChildText">
                         <h3>DRINKS</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur totam delectus quis rem atque sint culpa repellendus dolore</p>
                     </div>
                 </li>
                 <li class="vegChild">
-                    
+                    <img class="vegIcon" src="./assets/sideIcon.png" alt="">
                     <div class="vegChildText">
                         <h3>SIDE DISHES</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur totam delectus quis rem atque sint culpa repellendus dolore</p>
                     </div>
                 </li>
             </ul>
-        </div>
+        </section>
+        <!-- OUR RESTAURANTS -->
+        <section class="ourRestaurants">
+            <div>
+                <img class="fancyFood" src="./assets/home-circle-text.png" alt="">
+            </div>
+            <div class="ourRestaurantsImg">
+                <img src="./assets/home-4.jpeg" alt="An open floor plan restaurant front of house">
+            </div>
+            <div class="ourRestaurantsText">
+                <h3>
+                    OUR RESTAURANTS
+                </h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates perspiciatis id qui? Blanditiis rerum ducimus neque possimus esse illum quisquam temporibus.</p>
+            </div>
+        </section>
+        <!-- GALLERY -->
+        <section class="gallery">
+            <ul class="galleryFlex">
+                <li><img src="./assets/home-5.jpeg" alt=""></li>
+                <li><img src="./assets/home-6.jpeg" alt=""></li>
+                <li><img src="./assets/home-7.jpeg" alt=""></li>
+                <li><img src="./assets/home-8.jpeg" alt=""></li>
+                <li><img src="./assets/home-9.jpeg" alt=""></li>
+                <li><img src="./assets/home-10.jpeg" alt=""></li>
+            </ul>
+        </section>
+        <!-- HUNGRY CLIENTS -->
+        <section class="hungry">
+            <img src="./assets/quoteIcon.png" alt="">
+            <div class="hungryWrapper">
+            <h3>HUNGRY CLIENTS</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, reprehenderit! Dicta quis totam debitis, ex quasi nihil maiores error dolorum odio assumenda consequuntur adipisci aspernatur repellat fugit mollitia quam eligendi!</p>
+            </div>
+            <img src="./assets/quoteIcon2.png" alt="">
+        </section>
     </main>
+    <!-- FOOTER -->
+    <footer class="flexFoot">
+        <div class="footerDelicious">
+            <h3>DELICIOUS</h3>
+            <p class="footerP">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum animi dolore adipisci vel architecto, cupiditate aliquid porro, asperiores vero minus fuga? Nobis aut blanditiis.</p>
+            <p class="footerP">A delicious restaurant <br>
+            Toronto, Ontario</p>
+            <p class="footerP">yum@food.com</p>
+            <p>+1 234 567 8910</p>
+        </div>
+        <div class="recentPosts">
+            <h4>RECENT POSTS</h4>
+            <p class="footerP">Lorem ipsum dolor sit amet consectetur.</p>
+            <p class="footerP">Lorem ipsum dolor sit amet consectetur.</p>
+            <p class="footerP">Lorem ipsum dolor sit amet consectetur.</p>
+            <p class="footerP">Lorem ipsum dolor sit amet consectetur.</p>
+            <p class="footerP">Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+        <div class="subscribe">
+            <h4>SUBSCRIBE NOW</h4>
+            <p>Get all of our newest recipes immediately in your inbox!</p>
+            <form action="">
+                <label for="Enter your Email" class="sr-only"></label>
+                <input type="email" id="email" placeholder="Enter your email">
+                <button><img src="./assets/arrowRightIcon.png" alt=""></button>
+            </form>
+            <img src="./assets/Facebook.png" alt="">
+        </div>
+    </footer>
 </body>
 </html>
