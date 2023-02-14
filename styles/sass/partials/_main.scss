@@ -1,2 +1,44 @@
 @use './variables' as *;
 
+.recipesParent {
+    display: -webkit-box;
+    flex-direction: row-reverse;
+    .recipesImg {
+        width: 50%;
+    }
+    .recipes {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+
+    }
+    .recipesImgChild {
+        width: 100%;
+    }
+}
+
+.vegParent {
+    display: -webkit-box;
+    flex-direction: row;
+    background-color: #999999;
+    .vegImg {
+        width: 50%;
+    }
+    .vegList {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+
+    }
+    .vegImgChild {
+        width: 100%;
+    }
+}
+

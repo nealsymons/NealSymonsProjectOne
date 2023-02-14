@@ -6,6 +6,21 @@
     background-position: center;
     background-size: cover;
     height: 100vh;
+    .navFlex {
+        display: flex;
+    }
+    .flexItem {
+        flex-grow: 1;
+    }
+    .flexItemList {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+    }
+    .flexItemList img {
+        position: relative;
+        bottom: 10px;
+    }
 }
 
 .contactHead {
@@ -13,6 +28,21 @@
     background-position: center;
     background-size: cover;
     height: 100vh;
+    .navFlex {
+        display: flex;
+    }
+    .flexItem {
+        flex-grow: 1;
+    }
+    .flexItemList {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+    }
+    .flexItemList img {
+        position: relative;
+        bottom: 10px;
+    }
 }
 
 .blogHead {
@@ -20,10 +50,20 @@
     background-position: center;
     background-size: cover;
     height: 100vh;
+    .navFlex {
+        display: flex;
+    }
+    .flexItem {
+        flex-grow: 1;
+    }
+    .flexItemList {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+    }
+    .flexItemList img {
+        position: relative;
+        bottom: 10px;
+    }
 }
 
-.navFlex {
-    display: flex;
-    padding: 20px;
-
-}

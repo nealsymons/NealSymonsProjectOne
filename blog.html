@@ -5,15 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Raleway:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
     <header class="blogHead">
-        <div>
             <nav class="navFlex">
-                <h1 class="flexItemHeader">Delicous</h1>
+                <h1 class="flexItemHeader flexItem">Delicous</h1>
 
-                <ul class="flexItemList">
+                <ul class="flexItemList flexItem">
                     <li><a href="./index.html">HOME</a></li>
                     <li><a href="">ABOUT</a></li>
                     <li><a href="">RECIPES</a></li>
@@ -25,7 +27,6 @@
                     <li><img src="./assets/searchIcon.png" alt="search icon"></li>
                 </ul>
         </nav>
-        </div>
     </header>
 
     <main>
@@ -139,32 +140,34 @@
 
         <!-- FOOTER -->
         <footer class="flexFoot">
-            <div class="footerDelicious">
-                <h3>DELICIOUS</h3>
-                <p class="footerP">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum animi dolore adipisci vel architecto, cupiditate aliquid porro, asperiores vero minus fuga? Nobis aut blanditiis.</p>
-                <p class="footerP">A delicious restaurant <br>
-                Toronto, Ontario</p>
-                <p class="footerP">yum@food.com</p>
-                <p>+1 234 567 8910</p>
-            </div>
-            <div class="recentPosts">
-                <h4>RECENT POSTS</h4>
-                <p class="footerP">Lorem ipsum dolor sit amet consectetur.</p>
-                <p class="footerP">Lorem ipsum dolor sit amet consectetur.</p>
-                <p class="footerP">Lorem ipsum dolor sit amet consectetur.</p>
-                <p class="footerP">Lorem ipsum dolor sit amet consectetur.</p>
-                <p class="footerP">Lorem ipsum dolor sit amet consectetur.</p>
-                <p>Lorem ipsum dolor sit amet consectetur.</p>
-            </div>
-            <div class="subscribe">
-                <h4>SUBSCRIBE NOW</h4>
-                <p>Get all of our newest recipes immediately in your inbox!</p>
-                <form action="">
-                    <label for="Enter your Email" class="sr-only"></label>
-                    <input type="email" id="email" placeholder="Enter your email">
-                    <button><img src="./assets/arrowRightIcon.png" alt=""></button>
-                </form>
-                <img src="./assets/Facebook.png" alt="">
+            <div class="wrapper">
+                <div class="footerDelicious">
+                    <h3>DELICIOUS</h3>
+                    <p class="footerP">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum animi dolore adipisci vel architecto, cupiditate aliquid porro, asperiores vero minus fuga? Nobis aut blanditiis.</p>
+                    <p class="footerP">A delicious restaurant <br>
+                    Toronto, Ontario</p>
+                    <p class="footerP">yum@food.com</p>
+                    <p>+1 234 567 8910</p>
+                </div>
+                <div class="recentPosts">
+                    <h4>RECENT POSTS</h4>
+                    <p class="footerP">Lorem ipsum dolor sit amet consectetur.</p>
+                    <p class="footerP">Lorem ipsum dolor sit amet consectetur.</p>
+                    <p class="footerP">Lorem ipsum dolor sit amet consectetur.</p>
+                    <p class="footerP">Lorem ipsum dolor sit amet consectetur.</p>
+                    <p class="footerP">Lorem ipsum dolor sit amet consectetur.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+                <div class="subscribe">
+                    <h4>SUBSCRIBE NOW</h4>
+                    <p>Get all of our newest recipes immediately in your inbox!</p>
+                    <form action="">
+                        <label for="Enter your Email" class="sr-only"></label>
+                        <input type="email" id="email" placeholder="Enter your email">
+                        <button><img src="./assets/arrowRightIcon.png" alt=""></button>
+                    </form>
+                    <img src="./assets/Facebook.png" alt="">
+                </div>
             </div>
         </footer>
 </body>

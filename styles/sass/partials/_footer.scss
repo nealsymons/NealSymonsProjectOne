@@ -2,4 +2,30 @@
 
 footer {
     background-color: #2E2E2E;
+    .footerCon {
+        display: flexbox;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    .footerDelicious {
+        width: calc((100% / 3) - 20px);
+        margin: 10px;
+        margin-bottom: 20px;
+        flex-grow: 1;
+    }
+    .recentPosts {
+        width: calc((100% / 3) - 20px);
+        margin: 10px;
+        margin-bottom: 20px;
+        flex-grow: 1;
+    }
+    .subscribe {
+        width: calc((100% / 3) - 20px);
+        margin: 10px;
+        margin-bottom: 20px;
+        flex-grow: 1;
+    }
+
 }
+

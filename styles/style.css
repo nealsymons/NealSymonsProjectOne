@@ -228,6 +228,7 @@ html {
 
 html {
   font-size: 125%;
+  font-family: "Raleway", sans-serif;
 }
 
 .wrapper {
@@ -250,12 +251,58 @@ a {
   background-size: cover;
   height: 100vh;
 }
+.indexHead .navFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.indexHead .flexItem {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+.indexHead .flexItemList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 20px;
+}
+.indexHead .flexItemList img {
+  position: relative;
+  bottom: 10px;
+}
 
 .contactHead {
   background-image: url(../assets/contact-1.jpeg);
   background-position: center;
   background-size: cover;
   height: 100vh;
+}
+.contactHead .navFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.contactHead .flexItem {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+.contactHead .flexItemList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 20px;
+}
+.contactHead .flexItemList img {
+  position: relative;
+  bottom: 10px;
 }
 
 .blogHead {
@@ -264,14 +311,131 @@ a {
   background-size: cover;
   height: 100vh;
 }
-
-.navFlex {
+.blogHead .navFlex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 20px;
+}
+.blogHead .flexItem {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+.blogHead .flexItemList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 20px;
+}
+.blogHead .flexItemList img {
+  position: relative;
+  bottom: 10px;
+}
+
+.recipesParent {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+.recipesParent .recipesImg {
+  width: 50%;
+}
+.recipesParent .recipes {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 40px;
+}
+.recipesParent .recipesImgChild {
+  width: 100%;
+}
+
+.vegParent {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #999999;
+}
+.vegParent .vegImg {
+  width: 50%;
+}
+.vegParent .vegList {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 40px;
+}
+.vegParent .vegImgChild {
+  width: 100%;
 }
 
 footer {
   background-color: #2E2E2E;
+}
+footer .footerCon {
+  display: flexbox;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+footer .footerDelicious {
+  width: calc(33.3333333333% - 20px);
+  margin: 10px;
+  margin-bottom: 20px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+footer .recentPosts {
+  width: calc(33.3333333333% - 20px);
+  margin: 10px;
+  margin-bottom: 20px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+footer .subscribe {
+  width: calc(33.3333333333% - 20px);
+  margin: 10px;
+  margin-bottom: 20px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
